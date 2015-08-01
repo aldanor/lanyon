@@ -4,7 +4,8 @@
 permalink:           pretty
 relative_permalinks: true
 markdown:            kramdown
-  input:             GFM
+kramdown:
+    input:           GFM
 
 # Setup
 title:               Lanyon
