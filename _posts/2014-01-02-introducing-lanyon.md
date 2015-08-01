@@ -14,19 +14,18 @@ assert isinstance(types, types.ModuleType)
 ~~~
 {:.line-numbers}
 
-{% highlight python lineanchors=line %}
+~~~ python
 # Python 2.x
 class B:
     pass
 
 # let's just leave it at that
 assert type(B) is not type
-{% endhighlight %}
+~~~
 
-{:.line-numbers}
 
-{% highlight python %}
+~~~ python
 # Python 2.x only
 class A(object):
     __metaclass__ = M
-{% endhighlight %}
+~~~
