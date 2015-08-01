@@ -3,7 +3,7 @@ layout: post
 title: Introducing Lanyon
 ---
 
-{% highlight python lineanchors %}
+```python
 import types
 
 def func():
@@ -11,7 +11,7 @@ def func():
 
 assert isinstance(func, types.FunctionType)
 assert isinstance(types, types.ModuleType)
-{% endhighlight %}
+```
 
 {% highlight python lineanchors=line %}
 # Python 2.x
