@@ -22,7 +22,9 @@ class B:
 assert type(B) is not type
 {% endhighlight %}
 
-{% highlight python  %}
+{:.line-numbers}
+
+{% highlight python %}
 # Python 2.x only
 class A(object):
     __metaclass__ = M
